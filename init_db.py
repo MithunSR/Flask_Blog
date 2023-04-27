@@ -16,5 +16,6 @@ cur.execute("INSERT INTO posts (title, content) VALUES (?, ?)",
             ('Second Post', 'Content for the second post')
             )
 
+
 connection.commit()
 connection.close()
